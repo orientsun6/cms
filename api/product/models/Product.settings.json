@@ -1,0 +1,41 @@
+{
+  "connection": "default",
+  "collectionName": "product",
+  "info": {
+    "name": "product",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "category": {
+      "default": "",
+      "type": "string"
+    },
+    "model": {
+      "default": "",
+      "type": "string"
+    },
+    "spec sheet": {
+      "default": "",
+      "type": "string"
+    },
+    "images": {
+      "default": "",
+      "type": "string"
+    },
+    "advantages": {
+      "default": "",
+      "type": "text"
+    },
+    "features": {
+      "default": "",
+      "type": "text"
+    }
+  }
+}
