@@ -36,6 +36,10 @@
     "features": {
       "default": "",
       "type": "text"
+    },
+    "specs": {
+      "default": "",
+      "type": "text"
     }
   }
 }
