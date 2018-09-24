@@ -1,6 +1,6 @@
 {
   "connection": "default",
-  "collectionName": "",
+  "collectionName": "product",
   "info": {
     "name": "product",
     "description": ""
@@ -42,6 +42,11 @@
     "advantages": {
       "default": "",
       "type": "text"
+    },
+    "cover": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
     }
   }
 }
