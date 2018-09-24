@@ -21,25 +21,27 @@
       "default": "",
       "type": "string"
     },
-    "advantages": {
-      "default": "",
-      "type": "text"
-    },
     "images": {
-      "default": "",
-      "type": "json"
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
     },
     "specs": {
       "default": "",
-      "type": "json"
+      "type": "text"
     },
     "features": {
       "default": "",
-      "type": "json"
+      "type": "text"
     },
     "spec sheet": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "advantages": {
       "default": "",
-      "type": "string"
+      "type": "text"
     }
   }
 }
