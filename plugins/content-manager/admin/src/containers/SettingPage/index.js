@@ -15,7 +15,7 @@ import { FormattedMessage } from 'react-intl';
 import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
 import PropTypes from 'prop-types';
 import {
-  beginMove,
+  beginMove, 
   endMove,
   moveAttr,
   moveAttrEditView,

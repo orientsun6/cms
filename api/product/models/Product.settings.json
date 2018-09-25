@@ -14,17 +14,17 @@
       "type": "string"
     },
     "category": {
-      "default": "",
-      "type": "string"
+      "default": "Recessed Line",
+      "type": "enumeration",
+      "enum": [
+        "Recessed Line",
+        "Dawn Slim",
+        "Dawn Puck"
+      ]
     },
     "model": {
       "default": "",
       "type": "string"
-    },
-    "images": {
-      "collection": "file",
-      "via": "related",
-      "plugin": "upload"
     },
     "specs": {
       "default": "",
@@ -34,16 +34,21 @@
       "default": "",
       "type": "text"
     },
-    "spec sheet": {
-      "model": "file",
-      "via": "related",
-      "plugin": "upload"
-    },
     "advantages": {
       "default": "",
       "type": "text"
     },
+    "images": {
+      "collection": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
     "cover": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload"
+    },
+    "spec_sheet": {
       "model": "file",
       "via": "related",
       "plugin": "upload"
