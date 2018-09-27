@@ -14,12 +14,12 @@
       "type": "string"
     },
     "category": {
-      "default": "Recessed Line",
+      "default": "Slim Series",
       "type": "enumeration",
       "enum": [
-        "Recessed Line",
-        "Dawn Slim",
-        "Dawn Puck"
+        "Slim Series",
+        "Puck Series",
+        "LED Filament Bulb"
       ]
     },
     "model": {
