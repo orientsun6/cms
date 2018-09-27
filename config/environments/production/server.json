@@ -11,6 +11,6 @@
         "enabled": true,
         "ssl": true,
         "host": "54.213.252.219",
-        "port": 8443
+        "port": 443
       }
 }
