@@ -1,16 +1,10 @@
 {
-    "host": "54.213.252.219",
+    "host": "34.205.77.132",
     "port": "${process.env.PORT || 1337}",
     "autoReload": {
         "enabled": false
     },
     "cron": {
         "enabled": false
-    },
-    "proxy": {
-        "enabled": true,
-        "ssl": true,
-        "host": "54.213.252.219",
-        "port": 443
-      }
+    }
 }
