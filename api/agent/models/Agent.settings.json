@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "agent",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "placeId": {
+      "default": "",
+      "type": "string"
+    },
+    "name": {
+      "default": "",
+      "type": "string"
+    },
+    "phone": {
+      "default": "",
+      "type": "string"
+    },
+    "address": {
+      "default": "",
+      "type": "string"
+    },
+    "location": {
+      "default": "",
+      "type": "json"
+    }
+  }
+}
